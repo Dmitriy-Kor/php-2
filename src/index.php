@@ -8,7 +8,7 @@
 <body>
     <?php 
         echo "XAMPP WORK";
-        // lesson 1
+    // lesson 1
 
         class Good {
             public $id_good;
@@ -35,7 +35,7 @@
         $someGood = new Good (5,"something", "nothing doing", 777);
         $someGood->viewGood();
    
-
+    //задание 5    
         class A {
             public function foo() {
                 static $x = 0; 
@@ -53,8 +53,8 @@
         $a2->foo(); //2
         $a1->foo(); //3
         $a2->foo(); //4
-    
-   
+
+    //задание 6     
         class A {
             public function foo() {
                 static $x = 0;
@@ -71,7 +71,7 @@
         $a1->foo(); //2
         $b1->foo(); //2
 
-       
+    //задание 5 
         class A {
             public function foo() {
                 static $x = 0;
