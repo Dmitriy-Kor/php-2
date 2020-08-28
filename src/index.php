@@ -17,14 +17,14 @@ try {
 	$app = new \Classes\Application($view);
 
 	$page = $_GET["p"];
-
+	$id = $_GET["id"];
 	switch($page) {
 		case 1: {
-			$app->example1();
+			$app->getGallery();
 			break;
 		}
 		case 2: {
-			$app->example2();
+			$app->getPicture($id);
 			break;
 		}		
 	}

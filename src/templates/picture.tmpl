@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/gallery.css" />
+    <title>{{picture.alt}}</title>
+</head>
+<body>
+       <h1>Изображение  {{picture.name}} - {{picture.alt}}</h1>
+       <div class="gallery__fullSize">
+       <img class="full_size" src=" ../{{picture.adress}}{{picture.name}}" alt="{{picture.alt}}"/>
+       <p>Просмотры: {{picture.views}}</p>
+       </div>
+</body>
+</html>
